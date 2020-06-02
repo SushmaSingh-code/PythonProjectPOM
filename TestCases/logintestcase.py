@@ -12,7 +12,7 @@ class loginTest(unittest.TestCase):
     baseURL = "http://admin-demo.nopcommerce.com/"
     username = "admin@yourstore.com"
     password = "admin"
-    driver = webdriver.Chrome(executable_path="..\\Drivers\\chromedriver.exe")
+    driver = webdriver.Chrome(executable_path="..\\Driver\\chromedriver.exe")
 
     @classmethod
     def setUpClass(cls):
